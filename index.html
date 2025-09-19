@@ -90,3 +90,137 @@
                         </ul>
                     </div>
                 </div>
+                <!-- Image - Shows first on mobile -->
+                <div class="relative w-full md:w-1/2 flex justify-center">
+                    <div class="image-accent about-image-accent"></div>
+                    <img src="images/profil_2.png" alt="Coding" class="relative z-20 rounded-lg shadow-xl w-full max-w-md mx-auto md:max-w-full">
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="py-16 px-4 sm:px-6 lg:px-8">
+            <div class="container mx-auto max-w-7xl">
+                <div class="text-center mb-12">
+                    <p class="text-[#FF5A5F] uppercase tracking-widest text-sm mb-2">MY TECHNICAL SKILLS</p>
+                    <h2 class="playfair text-4xl md:text-5xl font-bold mb-4">Skills & Technologies</h2>
+                    <div class="accent-line mx-auto"></div>
+                </div>
+
+                <!-- Filter Buttons -->
+                <div class="flex flex-wrap justify-center gap-4 mb-12">
+                    <button class="filter-btn active px-6 py-2 rounded-full border border-[#FF5A5F] text-white hover:bg-[#FF5A5F] transition-colors" data-filter="all">All</button>
+                    <button class="filter-btn px-6 py-2 rounded-full border border-gray-600 text-gray-400 hover:border-[#FF5A5F] hover:text-white transition-colors" data-filter="frontend">Frontend</button>
+                    <button class="filter-btn px-6 py-2 rounded-full border border-gray-600 text-gray-400 hover:border-[#FF5A5F] hover:text-white transition-colors" data-filter="backend">Backend</button>
+                    <button class="filter-btn px-6 py-2 rounded-full border border-gray-600 text-gray-400 hover:border-[#FF5A5F] hover:text-white transition-colors" data-filter="database">Database</button>
+                    <button class="filter-btn px-6 py-2 rounded-full border border-gray-600 text-gray-400 hover:border-[#FF5A5F] hover:text-white transition-colors" data-filter="tools">Tools</button>
+                </div>
+
+                <!-- Skills Grid -->
+                <div class="skills-grid grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
+                    <!-- Frontend Skills -->
+                    <div class="skill-card group" data-category="frontend">
+                        <div class="skill-icon bg-gray-800 p-6 rounded-lg transition-all duration-300 group-hover:bg-[#FF5A5F] group-hover:transform group-hover:-translate-y-2">
+                            <i class="fab fa-html5 text-4xl text-orange-500 group-hover:text-white"></i>
+                            <span class="mt-2 block text-sm font-medium">HTML5</span>
+                        </div>
+                    </div>
+                    <div class="skill-card group" data-category="frontend">
+                        <div class="skill-icon bg-gray-800 p-6 rounded-lg transition-all duration-300 group-hover:bg-[#FF5A5F] group-hover:transform group-hover:-translate-y-2">
+                            <i class="fab fa-css3-alt text-4xl text-blue-500 group-hover:text-white"></i>
+                            <span class="mt-2 block text-sm font-medium">CSS3</span>
+                        </div>
+                    </div>
+                    <div class="skill-card group" data-category="frontend">
+                        <div class="skill-icon bg-gray-800 p-6 rounded-lg transition-all duration-300 group-hover:bg-[#FF5A5F] group-hover:transform group-hover:-translate-y-2">
+                            <i class="fab fa-js text-4xl text-yellow-400 group-hover:text-white"></i>
+                            <span class="mt-2 block text-sm font-medium">JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="skill-card group" data-category="frontend">
+                        <div class="skill-icon bg-gray-800 p-6 rounded-lg transition-all duration-300 group-hover:bg-[#FF5A5F] group-hover:transform group-hover:-translate-y-2">
+                            <i class="fab fa-react text-4xl text-blue-400 group-hover:text-white"></i>
+                            <span class="mt-2 block text-sm font-medium">React</span>
+                        </div>
+                    </div>
+                    <div class="skill-card group" data-category="frontend">
+                        <div class="skill-icon bg-gray-800 p-6 rounded-lg transition-all duration-300 group-hover:bg-[#FF5A5F] group-hover:transform group-hover:-translate-y-2">
+                            <i class="fas fa-wind text-4xl text-cyan-400 group-hover:text-white"></i>
+                            <span class="mt-2 block text-sm font-medium">Tailwind</span>
+                        </div>
+                    </div>
+                    
+
+                    <!-- Backend Skills -->
+                    <div class="skill-card group" data-category="backend">
+                        <div class="skill-icon bg-gray-800 p-6 rounded-lg transition-all duration-300 group-hover:bg-[#FF5A5F] group-hover:transform group-hover:-translate-y-2">
+                            <i class="fab fa-node-js text-4xl text-green-500 group-hover:text-white"></i>
+                            <span class="mt-2 block text-sm font-medium">Node.js</span>
+                        </div>
+                    </div>
+                    <div class="skill-card group" data-category="backend">
+                        <div class="skill-icon bg-gray-800 p-6 rounded-lg transition-all duration-300 group-hover:bg-[#FF5A5F] group-hover:transform group-hover:-translate-y-2">
+                            <i class="fab fa-php text-4xl text-indigo-400 group-hover:text-white"></i>
+                            <span class="mt-2 block text-sm font-medium">PHP</span>
+                        </div>
+                    </div>
+                    <div class="skill-card group" data-category="backend">
+                        <div class="skill-icon bg-gray-800 p-6 rounded-lg transition-all duration-300 group-hover:bg-[#FF5A5F] group-hover:transform group-hover:-translate-y-2">
+                            <i class="fab fa-laravel text-4xl text-red-500 group-hover:text-white"></i>
+                            <span class="mt-2 block text-sm font-medium">Laravel</span>
+                        </div>
+                    </div>
+                   
+
+                    <!-- Database Skills -->
+                    <div class="skill-card group" data-category="database">
+                        <div class="skill-icon bg-gray-800 p-6 rounded-lg transition-all duration-300 group-hover:bg-[#FF5A5F] group-hover:transform group-hover:-translate-y-2">
+                            <i class="fas fa-database text-4xl text-blue-300 group-hover:text-white"></i>
+                            <span class="mt-2 block text-sm font-medium">MySQL</span>
+                        </div>
+                    </div>
+                    <div class="skill-card group" data-category="database">
+                        <div class="skill-icon bg-gray-800 p-6 rounded-lg transition-all duration-300 group-hover:bg-[#FF5A5F] group-hover:transform group-hover:-translate-y-2">
+                            <i class="fas fa-database text-4xl text-blue-400 group-hover:text-white"></i>
+                            <span class="mt-2 block text-sm font-medium">PostgreSQL</span>
+                        </div>
+                    </div>
+                   
+
+                    <!-- Tools -->
+                    <div class="skill-card group" data-category="tools">
+                        <div class="skill-icon bg-gray-800 p-6 rounded-lg transition-all duration-300 group-hover:bg-[#FF5A5F] group-hover:transform group-hover:-translate-y-2">
+                            <i class="fab fa-git-alt text-4xl text-orange-600 group-hover:text-white"></i>
+                            <span class="mt-2 block text-sm font-medium">Git</span>
+                        </div>
+                    </div>
+                    <div class="skill-card group" data-category="tools">
+                        <div class="skill-icon bg-gray-800 p-6 rounded-lg transition-all duration-300 group-hover:bg-[#FF5A5F] group-hover:transform group-hover:-translate-y-2">
+                            <i class="fab fa-github text-4xl text-gray-200 group-hover:text-white"></i>
+                            <span class="mt-2 block text-sm font-medium">GitHub</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card group" data-category="tools">
+                        <div class="skill-icon bg-gray-800 p-6 rounded-lg transition-all duration-300 group-hover:bg-[#FF5A5F] group-hover:transform group-hover:-translate-y-2">
+                            <i class="fab fa-jira text-4xl text-blue-400 group-hover:text-white"></i>
+                            <span class="mt-2 block text-sm font-medium">Jira</span>
+                        </div>
+                    </div>
+                    <div class="skill-card group" data-category="tools">
+                        <div class="skill-icon bg-gray-800 p-6 rounded-lg transition-all duration-300 group-hover:bg-[#FF5A5F] group-hover:transform group-hover:-translate-y-2">
+                            <i class="fab fa-trello text-4xl text-blue-500 group-hover:text-white"></i>
+                            <span class="mt-2 block text-sm font-medium">Trello</span>
+                        </div>
+                    </div>
+                    <div class="skill-card group" data-category="tools">
+                        <div class="skill-icon bg-gray-800 p-6 rounded-lg transition-all duration-300 group-hover:bg-[#FF5A5F] group-hover:transform group-hover:-translate-y-2">
+                            <i class="fab fa-figma text-4xl text-purple-500 group-hover:text-white"></i>
+                            <span class="mt-2 block text-sm font-medium">Figma</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider mx-auto my-16"></div>
