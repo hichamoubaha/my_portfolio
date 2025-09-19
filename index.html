@@ -23,3 +23,41 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
             </svg>
         </button>
+<!-- Desktop Navigation -->
+        <nav class="hidden md:flex space-x-6 uppercase text-sm font-semibold">
+            <a href="#home" class="nav-link hover:text-[#FF5A5F] transition-colors">Home</a>
+            <a href="#about" class="nav-link hover:text-[#FF5A5F] transition-colors">About</a>
+            <a href="#skills" class="nav-link hover:text-[#FF5A5F] transition-colors">Skills</a>
+            <a href="#experience" class="nav-link hover:text-[#FF5A5F] transition-colors">Experiences</a>
+            <a href="#portfolio" class="nav-link hover:text-[#FF5A5F] transition-colors">Projects</a>
+        </nav>
+        <a href="#contact" class="hidden md:block border border-[#FF5A5F] text-[#FF5A5F] font-semibold py-2 px-6 rounded-full hover:bg-[#FF5A5F] hover:text-white transition-colors">CONTACT</a>
+        
+        <!-- Mobile Menu Overlay -->
+        <div id="mobile-menu" class="fixed inset-0 bg-black bg-opacity-90 z-40 hidden md:hidden pt-2">
+            <div class="flex flex-col items-center justify-start h-full space-y-8 pt-12">
+                <button id="close-menu" class="absolute top-6 right-6 text-white focus:outline-none">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+                <a href="#home" class="nav-link text-2xl text-white hover:text-[#FF5A5F] transition-colors">Home</a>
+                <a href="#about" class="nav-link text-2xl text-white hover:text-[#FF5A5F] transition-colors">About</a>
+                <a href="#skills" class="nav-link text-2xl text-white hover:text-[#FF5A5F] transition-colors">Skills</a>
+                <a href="#experience" class="nav-link text-2xl text-white hover:text-[#FF5A5F] transition-colors">Experiences</a>
+                <a href="#portfolio" class="nav-link text-2xl text-white hover:text-[#FF5A5F] transition-colors">Projects</a>
+                <a href="#contact" class="mt-4 px-8 py-3 border-2 border-[#FF5A5F] text-[#FF5A5F] font-semibold rounded-full hover:bg-[#FF5A5F] hover:text-white transition-colors">CONTACT</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="min-h-screen">
+        <!-- Hero Section -->
+        <section id="home" class="h-screen flex items-center justify-center p-8 pt-24 md:pt-28 bg-black">
+            <div class="container mx-auto flex flex-col-reverse md:flex-row items-center justify-between">
+                <!-- Left Content - Moves below image on mobile -->
+                <div class="flex-1 max-w-2xl space-y-4 mt-12 md:mt-0">
+                    <h1 class="playfair text-3xl md:text-5xl font-bold leading-tight">Hi, my name is<br><span class="text-[#FF5A5F]">Hicham Oubaha</span></h1>
+                    <p class="text-gray-400 text-sm md:text-base leading-relaxed max-w-md">I am a passionate full-stack developer specializing in creating elegant and efficient web applications. My work focuses on building seamless user experiences from front to back.</p>
+                    <a href="#portfolio" class="inline-block mt-4 border border-[#FF5A5F] text-white font-semibold py-3 px-8 rounded-full hover:bg-[#FF5A5F] hover:text-white transition-colors">VIEW PORTFOLIO</a>
+                </div>
